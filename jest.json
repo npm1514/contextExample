@@ -1,0 +1,16 @@
+{
+    "transform": {
+        "^.+\\.js?$": "babel-jest"
+    },
+    "moduleNameMapper": {
+        "\\.(css|less)$": "identity-obj-proxy"
+    },
+    "moduleDirectories": [
+        "node_modules"
+    ],
+    "setupFiles": [
+        "jest-prop-type-error"
+    ],
+    "collectCoverage": true,
+    "testResultsProcessor":  "jest-sonar-reporter"
+}

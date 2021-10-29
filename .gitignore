@@ -1,0 +1,13 @@
+.DS_Store
+node_modules
+build/
+dist/
+.idea/
+*.iml
+target/
+*~
+.scannerwork/
+coverage/
+newrelic_agent.log
+yarn-error.log
+yarn.lock
